@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.weightlogger">
+
+    <application
+        android:icon="@mipmap/wl"
+        android:label="@string/app_name"
+        android:allowBackup="true"
+        android:backupAgent=".MyBackupAgent"
+        android:restoreAnyVersion="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.Launcher">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.android.backup.api_key"
+            android:value="AEdPqrEAAAAIx7Ay6Fs-XAh3hHSOgmm-3Alv8vdXSHB_W3yl4A" />
+
+    </application>
+
+</manifest>

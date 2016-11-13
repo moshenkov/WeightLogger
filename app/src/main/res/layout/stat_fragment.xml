@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/stat_list_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/ListTextView.Default"
+            android:text="@string/stat_list_item_date_weight_label"
+            android:layout_weight="1"/>
+        <TextView
+            style="@style/ListTextView.Default"
+            android:text="@string/stat_list_item_min_weight_label"
+            android:layout_weight="1"/>
+        <TextView
+            style="@style/ListTextView.Default"
+            android:text="@string/stat_list_item_avg_weight_label"
+            android:layout_weight="1"/>
+        <TextView
+            style="@style/ListTextView.Default"
+            android:text="@string/stat_list_item_max_weight_label"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <ListView
+        android:layout_below="@id/stat_list_header"
+        android:id="@id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@id/android:empty"
+        android:text="@string/empty_list_text"
+        android:gravity="center"
+        android:textSize="34dp"
+        />
+
+</RelativeLayout>

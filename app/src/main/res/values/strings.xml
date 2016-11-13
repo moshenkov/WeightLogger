@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Статистика веса</string>
+    <string name="date_hint">Дата</string>
+    <string name="weight_hint">Вес</string>
+    <string name="btn_cancel_text">Отмена</string>
+    <string name="btn_save_text">Сохранить</string>
+    <string name="add_dialog_date_label">Дата</string>
+    <string name="add_dialog_weight_label">Вес</string>
+    <string name="delete_record_menu_text">Удалить</string>
+    <string name="edit_record_menu_text">Редактировать</string>
+    <string name="add_dialog_weight_hint">Введите число.</string>
+    <string name="add_dialog_title_add">Добавить</string>
+    <string name="add_dialog_title_edit">Редактировать</string>
+    <string name="context_menu_item_edit_title">Редактировать</string>
+    <string name="context_menu_item_delete_title">Удалить</string>
+    <string name="record_added_toast">Запись добавлена.</string>
+    <string name="record_updated_toast">Запись обновлена.</string>
+    <string name="delete_record_confirmation_text">Удалить записи?</string>
+    <string name="btn_delete_text">Удалить</string>
+    <string name="update_record_confirmation_text">Обновить запись?</string>
+    <string name="btn_update_text">Обновить</string>
+    <string name="list_item_weight_unit_text">кг</string>
+    <string name="page_list_title">ДАННЫЕ</string>
+    <string name="page_stat_title">СТАТИСТИКА</string>
+    <string name="page_graf_title">ГРАФИК</string>
+    <string name="empty_list_text">Нет записей.</string>
+    <string name="action_mode_delete_subtitle">строк выделено</string>
+    <string name="record_deleted_toast">Записи удалены.</string>
+    <string name="stat_list_item_min_weight_label">мин.</string>
+    <string name="stat_list_item_avg_weight_label">сред.</string>
+    <string name="stat_list_item_max_weight_label">макс.</string>
+    <string name="stat_list_item_date_weight_label">месяц</string>
+</resources>
